@@ -41,4 +41,6 @@ Execute test:
   --tags options: @search (will run all tests with this tag, search_test_2 & @search_test_3 not implements per challenge requirements)  
                   @search_test_1 will run indivdual test with this tag  
                   @search_test_2 will run indivdual test with this tag (not implemented)  
-                  @search_test_3 will run indivdual test with this tag (not implemented)  
+                  @search_test_3 will run indivdual test with this tag (not implemented)  <br>
+<br>
+SQL challenge answer can be found in sql_query.challenge file
