@@ -1,0 +1,14 @@
+II. SQL
+	Given you have table of products with fields id, product_name, product_type, product_model, price in database,
+
+	And product_type can be desktop or laptop,
+	And model can be any String,
+	And name can be any String,
+
+	Select all product names for laptops from table products with average price < $2000
+
+ANSWER
+
+SELECT product_name from products
+WHERE product_type='laptop'
+AND price < (SELECT AVG(2000) from products)
